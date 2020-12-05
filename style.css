@@ -1,0 +1,141 @@
+body {
+    font-family: Helvetica, Arial;
+    width: 50%;
+    margin: auto;
+    background-color: #888;
+}
+
+.innerBody {
+    background-color: white;
+}
+
+header {
+    background-image: url("sky.jpeg");
+    height: 425px;
+    background-repeat: no;
+}
+
+.navBar nav{
+    float: right;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    float: right;
+}
+
+.title {
+    clear: both;
+    text-align: center;
+    color: white;
+    padding: 70px;
+}
+
+.webTitle {
+    font-size: 50px;
+}
+
+b {
+    font-size: 70%;
+}
+
+.section h3 {
+    color: #30396D;
+}
+
+.rightPane h4{
+    color: #30396D;
+}
+
+.rightPane h3{
+    color: #30396D;
+}
+
+.section {
+    width: 70%;
+    float: left;
+    padding: 10px;
+}
+
+.quoteBox {
+    border: solid 1px #30396D;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 45px;
+}
+
+span {
+    float: right;
+    padding: 25px;
+}
+
+.rightPane {
+    float: right;
+    width: 20%;
+    padding: 10px;
+}
+
+.categories a{
+    text-decoration: none;
+}
+
+.categories, .tags, .featuredImg {
+    border-bottom: 2px solid #30396D;
+    padding: 10px;
+}
+
+.tags a {
+    text-decoration: none;
+    padding: 2px;
+}
+
+.tags li {
+    list-style-type: none;
+    border: solid 1px #30396D;
+    text-align: center;
+    display: inline-block;
+    padding: 4px;
+    margin: 2px;
+}
+
+
+footer {
+    clear: both;
+    background-color: #30396D;
+    padding: 15px;
+    color: white;
+}
+
+footer nav {
+    display: inline-block;
+    color: white;
+    padding: 20px;
+}
+
+footer li {
+    list-style:none;
+    font-size:85%;
+    text-align: left;
+    
+}
+
+.news li, .events li {
+    height: 30px;
+}
+
+.socials li{
+    border:solid 1px white;
+    margin:4px;
+    padding:10px;
+    text-align:center;
+    width:250px;
+}
+
+.socials li a {
+    color: white;
+    text-decoration: none;
+}
